@@ -24,7 +24,7 @@ print(len(my_string_variable))
 name, surname, alias, age = "Antonio", "Salazar", "Toño", 21
 print("Me llamo:", name, surname, "Y tengo la edad de:",age, "Y mi alias es:",alias)
 
-""""
+
 # Input
 # Input es una funcion que permite recibir datos del usuario    
 name = input("¿Cual es tu nombre? ")
@@ -32,7 +32,7 @@ age = input("¿Cuantos anios tienes? ")
 
 print("Nombre al imprimirlo en consola: ", name)
 print("Tu edad al imprimirlo en consola: ", age)
-"""
+
 
 #cambiamos su tipo
 name = 22
@@ -40,7 +40,9 @@ age= "Antonio"
 print(name)
 print(age)
 
-#Forzamos el tipo de variable
+# ?Forzamos el tipo de variable¿
 address: str = "Mi direccion es: "
-address = 32 
+address = 5
+address = 1.23
+address = True
 print(type(address))
